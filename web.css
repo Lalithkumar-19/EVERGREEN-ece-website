@@ -1,0 +1,168 @@
+.top_Sec_div {
+    background: url(https://sackim.com/wp-content/uploads/2020/01/13-1.jpg);
+    width: 80%;
+    height: 100px;
+    box-shadow: 40px greenyellow;
+    border: 2px solid bisque;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_Sec_div h2 {
+    color: yellow;
+    text-align: center;
+}
+
+#welcome_bar {
+    width: 20%;
+    height: 100px;
+    background-color: #d4c86b;
+    border: 4px solid yellowgreen;
+    background: url(https://sackim.com/wp-content/uploads/2020/01/13-1.jpg);
+    text-overflow: hidden;
+    cursor: move;
+    border-collapse: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nav li a {
+    color: springgreen;
+}
+
+.nav li {
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.content_div {
+    background: url("https://media.istockphoto.com/photos/student-use-the-laptop-picture-id1157992138?k=20&m=1157992138&s=170667a&w=0&h=-mG2hLkLC_BHa-0Xp9T6Yhtuv83cwO72ZFfxtDuwn7M=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px yellow;
+}
+
+.content_div:hover {
+    background: url("https://st3.depositphotos.com/4259987/18084/i/450/depositphotos_180847772-stock-photo-three-young-hardworking-students-studying.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+#lessons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.SUBJECT {
+    margin: 30px;
+}
+
+.button {
+    border-radius: 100px;
+    margin: 0%;
+    box-shadow: none;
+    border: navy;
+}
+
+.display {
+    display: flexbox;
+    width: 100%;
+    height: auto;
+    background: url(https://thumbs.dreamstime.com/b/river-near-tall-buildings-illustration-33449562.jpg);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 3px goldenrod;
+}
+
+.SUBJECT {
+    background-color: aqua;
+    height: 100px;
+    width: 120px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.SUBJECT:hover {
+    background-color: chartreuse;
+    font-size: 30px;
+    transform: translatex(-20px);
+}
+
+.SUBJECT:active {
+    background-color: darkorange;
+}
+
+.main_body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: dimgray;
+}
+
+.unit {
+    background-color: blueviolet;
+    width: 90px;
+    height: 40px;
+}
+
+.lessons_info {
+    width: 100%;
+    height: 430px;
+    background: url("https://images.news18.com/ibnlive/uploads/2016/07/Kalam-Quote-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: solid;
+    display: flex;
+}
+
+.top_div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(width<=600px) {
+    .nav {
+        display: none;
+    }
+    .SUBJECT {
+        margin: 10px;
+    }
+    #lessons {
+        display: flex;
+        flex-direction: column;
+    }
+    .content_div {
+        height: 300px;
+    }
+}
